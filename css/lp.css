@@ -1,0 +1,69 @@
+header div.hero {
+  background-image: url("../imgs/tarjeta\ grafica\ 3.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  
+  text-align:center;
+
+}
+header div.hero div{
+   min-height: 80vh;
+}
+.title{
+  font-family: 'Kaushan Script', cursive;
+  font-size:2rem;
+  text-shadow: 1px 1px #fff;
+}
+.card{
+  font-family:'Times New Roman', Times, serif;
+  background-color: rgba(0, 0, 0, 0.603);
+}
+
+.card img{
+  width:100%;
+}
+
+.card body{
+  background-color:rgba(255, 255, 255, 0.096);
+}
+
+form {
+  font-size:1rem !important;
+}
+@media (min-width: 768px) {
+        header div.hero {
+            background-image: url("../imgs/tarjeta\ grafica\ 3.png");
+            min-height: 80vh;
+        }
+
+
+        form{
+          font-size:2rem !important;
+        }
+        .title{
+          font-size:6rem;
+          text-shadow: 3px 3px 3px #fff;
+          background-color: rgba(255,255,255,0.3);
+          padding:0.7em;
+          width:100%;
+          
+        }
+      }
+
+@media (min-width: 992px) {
+        header div.hero {
+            background-image: url("../imgs/tarjeta\ grafica\ 3.png");
+        }
+         .title{
+          max-width:1024px;
+          margin:1em auto;
+        }
+      }
+
+      body {
+        background-image: url("../imgs/abstract-653943_1920.jpg");
+        background-color: #cccccc;
+        font-family: "ka";
+       }
